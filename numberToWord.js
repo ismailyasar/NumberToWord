@@ -82,4 +82,7 @@ function sayiyiYaziyaCevir(sayi){
 	return yaziKarsilik;
 }
 
+/*Kullanım: sayiyiYaziyaCevir(1234567) => "birmilyonikiyüzotuzdörtbinbeşyüzaltmışyedi";
+*/
+
 
