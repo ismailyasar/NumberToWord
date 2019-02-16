@@ -1,13 +1,4 @@
 
-/*
-function basamakSayisiBul(sayi){
-basamakSayisi = 0;
-while(parseInt(sayi) != 0 ){
-	++basamakSayisi;
-	sayi = parseInt(sayi) / 10;
-}
-return basamakSayisi;
-}*/
 
 
 /*********** Yardımcı Fonksiyonlar *********/
