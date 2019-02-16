@@ -62,13 +62,14 @@ function sayiyiYaziyaCevir(sayi){
 	var yaziKarsilik = "";
 	for (var i = haneDizisi.length-1 ; i>=0 ; i--) {
 		var gecerliDeger = haneDizisi[i];
-
-		//bir bin seklinde bir ifade olmasın..
-		if(gecerliDeger == 1 && i == 1){
-			yaziKarsilik += basamakDegerListesi[i];
-		}else{
-			yaziKarsilik += ucHaneliYaziyaCevir(gecerliDeger) + basamakDegerListesi[i];
-		}		
+		if(gecerliDeger != 0){ 
+			//bir bin seklinde bir ifade olmasın..
+			if(gecerliDeger == 1 && i == 1){
+				yaziKarsilik += basamakDegerListesi[i];
+			}else{
+				yaziKarsilik += ucHaneliYaziyaCevir(gecerliDeger) + basamakDegerListesi[i];
+			}			
+		}				
 	}
 	return yaziKarsilik;
 }
