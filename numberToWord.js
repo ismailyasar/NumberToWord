@@ -53,7 +53,6 @@ function ucHaneliYaziyaCevir(sayi){
 	return sayininOkunusu;
 }
 
-
 /******************* Ana Fonksiyon **************************/
 function sayiyiYaziyaCevir(sayi){
 	sayi = parseInt(sayi);
