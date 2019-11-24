@@ -19,7 +19,6 @@ function ucHaneAyir(sayi){
 }
 
 function ucHaneliYaziyaCevir(sayi){
-
 	//rakam okunuşlarının tanımları
 	var birler = ["sıfır","bir","iki","üç","dört","beş","altı","yedi","sekiz","dokuz"];
 	var onlar = ["","on","yirmi","otuz","kırk","elli","altmış","yetmiş","seksen","doksan"];
