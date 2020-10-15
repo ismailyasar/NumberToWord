@@ -74,5 +74,5 @@ function sayiyiYaziyaCevir(sayi){
 
 /*Kullanım: sayiyiYaziyaCevir(1234567) => "birmilyonikiyüzotuzdörtbinbeşyüzaltmışyedi";
 */
-
+// Yalnızca tam sayılar için kullanınız - Plaase  only use for integer numbers. (TR)
 
